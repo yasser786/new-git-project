@@ -1,0 +1,19 @@
+Git Commands:
+
+Local Version Controlling:
+
+git add . [Stage all files in current dir]
+
+git commit -am "You_commit_msg_here" [commit changes to all staged files]
+
+
+Adding projects to github
+
+1. Create a git repo.
+
+2. Add git remote to the project folder
+
+	eg. git remote add origin https://github.com/yasser786/new-git-project.git
+
+3. Push the code to remote repo:
+	git push -u origin master
